@@ -3,7 +3,15 @@
   background-repeat: no-repeat;
 }
 
-.title {
+/* .title {
+  position: absolute;
+  top: 20%;
+  bottom: 45%;
+  left: 27%;
+  font-size: 70px;
+  color: blueviolet;
+} */
+h1 {
   position: absolute;
   top: 20%;
   bottom: 45%;
@@ -106,6 +114,29 @@
 }
 
 @media (max-width: 900px) {
+  .nav {
+    padding: 20px 10px !important;
+  }
+  nav ul {
+    margin: 0;
+    display: inline;
+    padding: 50px;
+    display: flex;
+  }
+  nav ul li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    flex-grow: 1;
+  }
+
+  h1 {
+    top: 20%;
+    font-size: 60px;
+    left: 40%;
+  }
+
   nav .icon {
     display: block;
   }
@@ -136,27 +167,42 @@
 }
 
 @media screen and (max-width: 600px) {
-  .title {
+  /* .title {
     text-align: center;
     align-items: center;
     font-size: xx-large;
     top: 10%;
+  } */
+
+  h1 {
+    top: 15%;
+    font-size: 30px;
   }
+
+  .donate {
+    position: absolute;
+    /* top: 50%; */
+    top: auto;
+    /* bottom: 45%; */
+    left: 35%;
+    height: auto;
+  }
+
   .main-image {
     width: 100vw;
-    height: 100vh;
     height: auto;
   }
   .main-big {
-    text-align: center;
+    visibility: hidden;
+    /* text-align: center;
     align-items: center;
     white-space: nowrap;
     width: 50px;
-    /* overflow: hidden; */
-    text-overflow: clip;
+    text-overflow: clip; */
   }
   .main-small {
-    text-align: center;
-    align-items: center;
+    visibility: hidden;
+    /* text-align: center;
+    align-items: center; */
   }
 }
