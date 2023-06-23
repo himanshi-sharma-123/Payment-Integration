@@ -1,9 +1,7 @@
 PRESENTATION:
 
-D:\WEB DEVELOPMENT\Payment Integration Gateway\images\WEB DEVELOPMENT AND DESIGNING.jpg
+![Alt text](image-1.png)
 
 Task Info:
 
-D:\WEB DEVELOPMENT\Payment Integration Gateway\images\payment-integration-info.jpg
-
-Website Screenshots:
+![Alt text](image.png)
